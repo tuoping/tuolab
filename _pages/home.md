@@ -66,7 +66,7 @@ My research solves the synthesizability & realism problem of generative material
 
 <div class="two-col">
   <div class="col-left">
-    <img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 300px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 300px" />
   </div>
 
   <div class="col-right">

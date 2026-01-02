@@ -99,13 +99,13 @@ firstp {
   margin: 2rem 0;
 }
 
-// .two-col .col-left {
-//   flex: 0 0 30%;    /* fixed-ish width for image */
-// }
+.two-col .col-left {
+  flex: 0 0 30%;    /* fixed-ish width for image */
+}
 
-// .two-col .col-right {
-//   flex: 1;          /* text takes the rest */
-// }
+.two-col .col-right {
+  flex: 1;          /* text takes the rest */
+}
 
 /* Make it stack on small screens */
 @media (max-width: 768px) {
@@ -113,8 +113,8 @@ firstp {
     flex-direction: column;
   }
 
-//   .two-col .col-left,
-//   .two-col .col-right {
-//     flex: 1 1 auto;
-//   }
+  .two-col .col-left,
+  .two-col .col-right {
+    flex: 1 1 auto;
+  }
 }
