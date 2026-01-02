@@ -1,21 +1,12 @@
 ---
-title: "Allan Lab - Home"
+title: "Ping Tuo - Home"
 layout: homelay
-excerpt: "Allan Lab at Leiden University &rarr; LMU."
+excerpt: "Ping Tuo at University of California, Berkeley &rarr; LMU."
 sitemap: false
 permalink: /
 ---
-
-**News: Our group moved to the University of Munich (LMU)!** Join us! 
-
-We are a dynamic research group at [LMU physics](https://www.physik.lmu.de/en/index.html) and at the [Leiden Institute of Physics](http://www.physics.leidenuniv.nl/). 
-
-We have two overarching goals: first, 
-**to understand quantum materials**, including strange metals, high-temperature superconductors, and quantum critical electron matter. Second, **to make novel and useful materials** that never existed before, like possible room-temperature superconductors. 
-To achieve these goals, we develop new quantum sensing and quantum imaging instrumentation to obtain the key quantum mechanical degrees of freedom. We want to build the perfect instruments to answer the scientific questions we deem most important. 
-
+<!-- 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
-    <!-- Menu -->
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -26,7 +17,6 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
         <li data-target="#carousel" data-slide-to="6"></li>
     </ol>
 
-    <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider7001400/QPI_Rh.jpg" alt="Slide 1" />
@@ -55,21 +45,37 @@ To achieve these goals, we develop new quantum sensing and quantum imaging instr
     <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div> -->
 
 
-We are currently building up our instruments right in the center of Munich, in the *Sommerfeldkeller*, where Sommerfeld and Röntgen worked. We will exchange ideas with world class groups working in quantum physics, cold-atom many-body physics, and 2d quantum materials. We are also a proud member of the [SuperC consortium](https://superc2033.com/our-team/).
+I'm a [BiDMaP fellow](https://bidmap.berkeley.edu/fellowship-opportunities/postdoctoral-fellowships-climate-change-machine-learning-and-advanced) at [University of California, Berkeley](https://www.berkeley.edu/). 
 
-**We are looking for passionate new PhD students, Postdocs, and Master students to join the team** [(more info)](https://www.allanlab.org/vacancies) **!**
-
-
+My research solves the synthesizability & realism problem of generative materials models by building physics-aware free-energy + kinetics generative frameworks, addressing a central gap in today’s AI-driven materials discovery: The lack of thermodynamic and kinetic realism in generative structure models.
 
 
 
+<!-- 
 <figure class="fifth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/LMU_logo.png" style="width: 130px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_Leiden.jpg" style="width: 140px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Tschira.png" style="width: 150px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/Logo_ERC.jpg" style="width: 100px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/SuperC_logo.png" style="width: 100px">
-</figure>
+</figure> -->
+
+<div class="two-col">
+  <div class="col-left">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 40px">
+  </div>
+
+  <div class="col-right">
+
+  "The fundamental laws necessary for the mathematical treatment of a large
+  part of physics and the whole of chemistry are thus completely known…"
+
+  “…approximate practical methods of applying quantum mechanics should be
+  developed, which can lead to an explanation of the main features of
+  complex atomic systems without too much computation.”
+
+  </div>
+</div>

@@ -91,3 +91,30 @@ firstp {
     margin-right: 30px;
 }
 
+
+.two-col {
+  display: flex;
+  gap: 2rem;        /* space between columns */
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.two-col .col-left {
+  flex: 0 0 30%;    /* fixed-ish width for image */
+}
+
+.two-col .col-right {
+  flex: 1;          /* text takes the rest */
+}
+
+/* Make it stack on small screens */
+@media (max-width: 768px) {
+  .two-col {
+    flex-direction: column;
+  }
+
+  .two-col .col-left,
+  .two-col .col-right {
+    flex: 1 1 auto;
+  }
+}
