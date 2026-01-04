@@ -1,67 +1,116 @@
 ---
-title: "Allan Lab - Publications"
-layout: gridlay
-excerpt: "Allan Lab -- Publications."
+title: "Tuo Lab - Publications"
+layout: publications
+excerpt: "Tuo Lab -- Publications."
 sitemap: false
-permalink: /publications/
+permalink: /publications
 ---
+<!-- Custom CSS -->
+<style>
+  .hanging-indent {
+    margin-left: 20px;
+    text-indent: -20px;
+  }
+  .btn-xs {
+    padding: 2px 5px;
+    font-size: 9px;
+    line-height: 1.5;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    background-color: #0059b3; /* Bootstrap primary color */
+    color: white;
+  }
+  .btn-xs:hover, .btn-xs:focus, .btn-xs:active {
+    background-color: #011f4b; /* Darker shade of primary color */
+    box-shadow: none;
+  }
+  .badge-pill-custom {
+      margin-left: 5px;
+      border-radius: 10rem;
+      padding: 0.18em 0.6em;
+      font-size: 13px;
+  }
+  .filter-button {
+      margin-right: 5px;
+      cursor: pointer;
+  }
+</style>
 
-
+<!-- START OF PAGE -->
 # Publications
 
-## Group highlights
+(Last updated Jul. 9, 2025. See [Google Scholar](https://scholar.google.com/citations?user=rnWDdREAAAAJ) for most up-to-date publications)
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+<!-- Display all possible research themes as filter buttons -->
+<p>
+  {% assign themes = site.data.research_themes %}
+  **Research Themes:** (select to filter)
+  {% for theme in themes %}<span class="badge badge-pill badge-pill-custom filter-button" data-theme="{{ theme.name }}" data-color="{{ theme.color }}" data-darker-color="{{ theme.darker_color }}" style="background-color: {{ theme.color }}">{{ theme.name }}</span>
+  {% endfor %}
+</p>
 
-{% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
+---
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
- <div class="well">
-  <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
-  <p>{{ publi.description }}</p>
-  <p><em>{{ publi.authors }}</em></p>
-  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
-  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>
-  <p> {{ publi.news2 }}</p>
- </div>
+<!-- Display all publications -->
+{% assign themes = site.data.research_themes %}
+{% for pub in site.data.publications %}
+<!-- Citations -->
+<div class="publication-item" data-themes="{{ pub.themes | join: ',' }}">
+  <p class="hanging-indent">
+    {{ pub.authors }}.
+    {% if pub.url %} [{{ pub.title }}]({{ pub.url }}). {% else %} {{pub.title}}. {% endif %}*{{ pub.journal }}*{% if pub.volume %} {{ pub.volume }}{% if pub.issue %}({{ pub.issue }}){% endif %},{% endif %}{% if pub.pages %} {{ pub.pages }}{% endif %}. ({{ pub.year }})
+    {% if pub.doi %} DOI: {{ pub.doi }} {% elsif pub.preprint %} *preprint: {{ pub.preprint }}*{% endif %}
+  </p>
+  <!-- Buttons and tags -->
+  {% if pub.preprint_url or pub.themes %}
+  <p style="margin-left: 20px; margin-top: -11px">
+    {% if pub.preprint_url %}<a href="{{ pub.preprint_url }}" class="btn btn-xs btn-primary">Preprint</a>{% endif %}{% if pub.themes %}{% for theme in pub.themes %}{% assign theme_data = themes | where: "name", theme | first %}{% if theme_data %} <span class="badge badge-pill badge-pill-custom" style="background-color: {{ theme_data.color }}">{{ theme }}</span>{% endif %}{% endfor %}
+    {% endif %}
+  </p>
+  {% endif %}
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
-{% endif %}
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+<!-- JavaScript for filtering publications -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const filterButtons = document.querySelectorAll('.filter-button');
+    const publicationItems = document.querySelectorAll('.publication-item');
 
-<p> &nbsp; </p>
+    filterButtons.forEach(button => {
+      const originalColor = button.getAttribute('data-color');
+      const darkerColor = button.getAttribute('data-darker-color');
 
+      // Log the colors to the console to verify correct retrieval
+      console.log('Original Color:', originalColor);
+      console.log('Darker Color:', darkerColor);
 
-## Patents
-<em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
+      button.addEventListener('click', function() {
+        this.classList.toggle('active');
+        if (this.classList.contains('active')) {
+          this.style.backgroundColor = darkerColor;
+        } else {
+          this.style.backgroundColor = originalColor;
+        }
+        filterPublications();
+      });
+    });
 
-<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:(Milan+ALLAN)">US10439125B2 (2016)</a>
+    function filterPublications() {
+      const activeThemes = Array.from(filterButtons)
+                                .filter(btn => btn.classList.contains('active'))
+                                .map(btn => btn.getAttribute('data-theme'));
 
-## Full List of publications
+      publicationItems.forEach(item => {
+        const itemThemes = item.getAttribute('data-themes').split(',');
 
-{% for publi in site.data.publist %}
-
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %}
+        if (activeThemes.length === 0 || activeThemes.every(theme => itemThemes.includes(theme))) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+  });
+</script>

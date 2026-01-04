@@ -1,0 +1,391 @@
+---
+title: "Tuo Lab - CV"
+layout: default
+excerpt: "Tuo Lab -- CV"
+sitemap: false
+permalink: /CV/
+---
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ping Tuo - CV</title>
+  <meta name="description" content="Curriculum Vitae of Ping Tuo.">
+  <!-- Keep / change this link as appropriate for your Jekyll site -->
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/CV/">
+
+  <style>
+    /* Basic reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Times New Roman", serif;
+      font-size: 11pt;
+      line-height: 1.4;
+      color: #000;
+      background: #fff;
+    }
+
+    /* Main CV container */
+    .cv {
+      max-width: 900px;
+      margin: 90px auto 60px; /* top margin leaves room for fixed navbar */
+      padding: 0 40px;
+    }
+
+    /* Headings */
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 26pt;
+      color: #0000C8;
+      font-weight: bold;
+      margin-bottom: 6pt;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      font-size: 16pt;
+      color: #0000C8;
+      font-weight: bold;
+      margin-top: 26pt;
+      margin-bottom: 8pt;
+    }
+
+    h3 {
+      font-family: Georgia, serif;
+      font-size: 11pt;
+      font-weight: bold;
+      margin-top: 10pt;
+      margin-bottom: 2pt;
+    }
+
+    /* Text + paragraphs */
+    p {
+      margin-bottom: 4pt;
+      text-align: justify;
+    }
+
+    .affiliation {
+      margin-bottom: 20pt;
+      text-align: left;
+    }
+
+    .dates {
+      font-style: italic;
+      font-weight: normal;
+    }
+
+    /* Sections */
+    .section {
+      margin-top: 6pt;
+    }
+
+    /* Lists */
+    ul,
+    ol {
+      margin-top: 6pt;
+      margin-bottom: 8pt;
+      padding-left: 22pt;
+    }
+
+    .arrow-list {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .arrow-list li {
+      position: relative;
+      padding-left: 16pt;
+      margin-bottom: 6pt;
+    }
+
+    .arrow-list li::before {
+      content: "›";
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: #0000C8;
+    }
+
+    .pub-list,
+    .conf-list,
+    .teach-list {
+      list-style: decimal;
+    }
+
+    .pub-list li,
+    .conf-list li,
+    .teach-list li {
+      margin-bottom: 6pt;
+    }
+
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Top navbar (unchanged) -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="http://localhost:4000/">
+          Ping Tuo &rarr; University of California, Berkeley
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://localhost:4000/">Home</a></li>
+          <li><a href="http://localhost:4000/CV">CV</a></li>
+          <li><a href="http://localhost:4000/publications">Publications</a></li>
+          <li><a href="http://localhost:4000/research">Research</a></li>
+          <!-- <li><a href="http://localhost:4000/pictures">(Pics)</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- CV content -->
+  <div class="cv">
+
+    <!-- Name + affiliation -->
+    <h1>Ping Tuo</h1>
+    <p class="affiliation">
+      Bakar Institute of Digital Materials for the Planet, UC Berkeley
+    </p>
+
+    <!-- Positions -->
+    <h2>Positions</h2>
+    <div class="section">
+      <h3>University of California, Berkeley <span class="dates">Nov 2024 - Now</span></h3>
+      <p>BiDMaP fellow</p>
+
+      <h3>Institute of Science and Technology Austria <span class="dates">Sep 2023 - Nov 2024</span></h3>
+      <p>Postdoctoral researcher</p>
+
+      <h3>AI for Science Institute of Beijing <span class="dates">Aug 2022 - Jul 2023</span></h3>
+      <p>Researcher</p>
+
+      <h3>DP Technology <span class="dates">Feb 2021 - Aug 2022</span></h3>
+      <p>Open source advocate &amp; community manager</p>
+
+      <h3>University of Science and Technology of China <span class="dates">Sep 2015 - Nov 2020</span></h3>
+      <p>Ph.D. in Physics</p>
+    </div>
+
+    <!-- Research interests -->
+    <h2>Research Interests</h2>
+    <div class="section">
+      <p>
+        My research solves the synthesizability &amp; realism problem of generative materials models by building
+        physics-aware free-energy + kinetics generative frameworks, addressing a central gap in today’s AI-driven
+        materials discovery: the lack of thermodynamic and kinetic realism in generative structure models.
+      </p>
+
+      <p>Ongoing Research Projects</p>
+
+      <ul class="arrow-list">
+        <li>
+          <h3>Generative modeling framework implementation</h3>
+          <p>Developing flow matching models with integrated free energy predictions for materials discovery.</p>
+        </li>
+        <li>
+          <h3>AI-driven thermodynamics and kinetics</h3>
+          <p>
+            Studying the thermodynamic stability of solids and nanoparticles based on free energies, and the
+            solid-solid phase transformations using enhanced sampling.
+          </p>
+        </li>
+        <li>
+          <h3>Functional ceramics design for tailored electronic, magnetic, and photoelectronic properties.</h3>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Grants -->
+    <h2>Grants</h2>
+    <div class="section">
+      <p>
+        BIDMaP postdoctoral fellowship in Climate Change, Machine Learning, and Advanced Materials, 2024.
+      </p>
+    </div>
+
+    <!-- Conferences -->
+    <h2>Conferences and Workshops</h2>
+    <div class="section">
+      <ol class="conf-list">
+        <li>
+          AI for Materials, Energy, and Chemical Sciences Gordon Research Conference, Feb 2026. Poster accepted.
+        </li>
+        <li>
+          MRS Fall, Dec 2025. Contributed talk &amp; co-chair of the “Generative AI Meets Materials Modeling” session.
+        </li>
+        <li>
+          ACS Fall, Aug 2025. Contributed talk. “Scalable multi-temperature free energy sampling of the alchemical
+          space.”
+        </li>
+        <li>
+          The 12th International Conference on Materials for Advanced Technologies (ICMAT2025), Jun 2025. Contributed
+          talk accepted. <span class="dates">Didn’t attend due to visa issues.</span>
+        </li>
+        <li>
+          Chinese Material Conference, Jul 2023. Contributed talk “The XRD diffraction peak anomalies of
+          organic-inorganic composite perovskites revealed by modeling.”
+        </li>
+        <li>
+          International Conference on High-performance Ceramics, Aug 2022. Contributed talk “Multiscale structures in
+          the low temperature γ phase of hybrid perovskites.”
+        </li>
+        <li>
+          International Conference of Multi-scale Modeling and Simulation of Materials, Jul 2022. Invited talk
+          “Application of enhanced sampling in energy materials.”
+        </li>
+        <li>
+          Deep Modeling workshop, Aug 2020. Invited talk “Adaptive coupling of Deep Potential to a Classical Force
+          Field.”
+        </li>
+        <li>
+          The Chinese Physical Society Fall Conference (CPS), Aug 2019. Contributed talk “Density functional theory
+          study of the photo-electrical Magnesium-based spinel.”
+        </li>
+      </ol>
+    </div>
+
+    <!-- Teaching -->
+    <h2>Teaching and Outreach</h2>
+    <div class="section">
+      <ol class="teach-list">
+        <li>Lecturer and organizer of the 2021 Deep Modeling workshop.</li>
+        <li>Tutor and organizer of the 2022 Deep Modeling workshop.</li>
+        <li>Tutor of the 2023 DP Technology Hackathon.</li>
+      </ol>
+    </div>
+
+    <!-- Software -->
+    <h2>Software Development</h2>
+    <div class="section">
+      <ul>
+        <li>
+          <a href="https://github.com/tuoping/MolGEN" target="_blank">
+            Developed MolGEN, a general purpose generative modeling package that couples state-of-the-art flow matching
+            frameworks with equivariant transformers
+          </a>.
+        </li>
+        <li>
+          <a href="https://github.com/tuoping/alchemicalFES" target="_blank">
+            Developed alchemicalFES, an alchemical free energy sampling package
+          </a>.
+        </li>
+        <li>
+          <a href="https://github.com/deepmodeling/deepmd-kit" target="_blank">
+            Contributed to the development of DeePMD-kit
+          </a>.
+        </li>
+        <li>
+          Developed FORTRAN-based tight-binding models and Kubo-Greenwood conductivity calculation modules.
+        </li>
+      </ul>
+    </div>
+
+    <!-- Publications -->
+    <h2>Selected Publications</h2>
+    <div class="section">
+      <ol class="pub-list">
+        <li>
+          <strong>P. Tuo*</strong>, Jiale Chen, Ju Li*. “Flow matching for reaction pathway generation.”
+          <span class="dates">Under review with Nature Communications (transferred from Nature Machine Intelligence)</span>,
+          arXiv preprint arXiv:2507.10530 (2025).
+        </li>
+        <li>
+          <strong>P. Tuo*</strong>, Zezhu Zeng, Jiale Chen, Bingqing Cheng. “Scalable Multi-temperature Free Energy
+          Sampling of the Alchemical Space.”
+          <span class="dates">Accepted by Journal of Chemical Theory and Computation</span> (2025).
+        </li>
+        <li>
+          Yongping Liu, <strong>P. Tuo*</strong>, Fu-Zhi Dai, Zhiyang Yu, Wei Lai, Qi Ding, Peng Yan, Jie Gao, Yunfeng
+          Hu, Yixuan Hu, Yuchi Fan, Wan Jiang, “A Highly Deficient Medium-Entropy Perovskite Ceramic for
+          Electromagnetic Interference Shielding under Harsh Environment”, <span class="dates">Advanced Materials</span>,
+          36.28: 2400059 (2024).
+        </li>
+        <li>
+          <strong>P. Tuo</strong>, Lei Li, Xiaoxu Wang, Jianhui Chen, Zhicheng Zhong, Bo Xu, Fu-Zhi Dai, “Spontaneous
+          Hybrid Nano-Domain Behavior of the Organic-Inorganic Hybrid Perovskites”,
+          <span class="dates">Advanced Functional Materials</span>, 2301663 (2023).
+        </li>
+        <li>
+          Q. Ou, <strong>P. Tuo</strong>, W. Li, X. Wang, Y. Chen, L. Zhang, “DeePKS Model for Halide Perovskites with
+          the Accuracy of a Hybrid Functional”, <span class="dates">The Journal of Physical Chemistry C</span>, 127 (37),
+          18755-18764 (2023).
+        </li>
+        <li>
+          Taiping Hu, Teng Yang, Jianchuan Liu, Bin Deng, Zhengtao Huang, Xiaoxu Wang, Fuzhi Dai, Guobing Zhou,
+          Fangjia Fu, <strong>P. Tuo</strong>, Ben Xu, Shenzhen Xu, “A Spin-dependent Machine Learning Framework for
+          Transition Metal Oxide Battery Cathode Materials”, <span class="dates">arXiv:2309.01146</span> (2023).
+        </li>
+        <li>
+          Jinzhe Zeng, Duo Zhang, Denghui Lu, Pinghui Mo, Zeyu Li, Yixiao Chen, Marián Rynik, Li’ang Huang, Ziyao Li,
+          Shaochen Shi, Yingze Wang, Haotian Ye, <strong>P. Tuo</strong>, Jiabin Yang, Ye Ding, Yifan Li, Davide Tisi,
+          Qiyu Zeng, Han Bao, Yu Xia, Jiameng Huang, Koki Muraoka, Yibo Wang, Junhan Chang, Fengbo Yuan, Sigbjørn
+          Løland Bore, Chun Cai, Yinnian Lin, Bo Wang, Jiayan Xu, Jia-Xin Zhu, Chenxing Luo, Yuzhi Zhang, Rhys EA
+          Goodall, Wenshuo Liang, Anurag Kumar Singh, Sikai Yao, Jingchao Zhang, Renata Wentzcovitch, Jiequn Han, Jie
+          Liu, Weile Jia, Darrin M. York, Roberto Car, Linfeng Zhang, Han Wang, “DeePMD-kit v2: A software package for
+          deep potential models”, <span class="dates">The Journal of Chemical Physics</span>, 159 (5), 112 (2023).
+        </li>
+        <li>
+          <strong>P. Tuo*</strong>, X. B. Ye, Bi-Cai Pan, “A machine-learning based deep potential for seeking the
+          low-lying candidates of Al clusters”, <span class="dates">Journal of Chemical Physics</span>, 152, 114105
+          (2020).
+        </li>
+        <li>
+          <strong>P. Tuo</strong>, Bi-Cai Pan, “Dilute magnetism in Co doped spinel Mg₃Si₆As₈”,
+          <span class="dates">Journal of Applied Physics</span>, 128, 033908 (2020).
+        </li>
+        <li>
+          X. B. Ye, <strong>P. Tuo</strong>, Bi-Cai Pan, “Flatband in a three-dimensional tungsten nitride compound”,
+          <span class="dates">Journal of Chemical Physics</span>, 152 (2020).
+        </li>
+        <li>
+          <strong>P. Tuo</strong>, Bi-Cai Pan, “First-principles study of intrinsic point defects in MgSiAs₂”,
+          <span class="dates">Physical Chemistry Chemical Physics</span>, 21, 5295 (2019).
+        </li>
+        <li>
+          <strong>P. Tuo</strong>, Bi-Cai Pan, “New compounds Mg₃IV₆V₈ (IV = Si, Ge, Sn; V = P, As, Sb) and their
+          potential application to photovoltaic materials”, <span class="dates">Journal of Alloys and Compounds</span>,
+          786, 434-439 (2019).
+        </li>
+        <li>
+          S. Li, <strong>P. Tuo</strong>, J. Xie, X. Zhang, J. Xu, J. Bao, B. Pan, Y. Xie, “Ultrathin MXene nanosheets
+          with rich fluorine termination groups realizing efficient electrocatalytic hydrogen evolution”,
+          <span class="dates">Nano Energy</span>, 47, 512-518 (2018).
+        </li>
+      </ol>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,166 @@
+- title: "Flow matching for reaction pathway generation"
+  authors: P. Tuo, Jiale Chen, Ju Li
+  journal: arXiv
+  year: 2025
+  url: https://arxiv.org/abs/2507.10530
+  preprint: arXiv:2507.10530
+  preprint_url: https://arxiv.org/abs/2507.10530
+  preprint_year: 2025
+  preprint_site: arxiv
+  themes:
+    - design and optimization
+    - predictive chemistry
+    - molecular representation
+
+- title: "Scalable multi-temperature free energy sampling of the alchemical space"
+  authors: P. Tuo, Zezhu Zeng, Jiale Chen, Bingqing Cheng
+  journal: Journal of Chemical Theory and Computation (accepted)
+  year: 2025
+  url: https://arxiv.org/abs/2503.08063
+  preprint: arXiv:2503.08063
+  preprint_url: https://arxiv.org/abs/2503.08063
+  preprint_year: 2025
+  preprint_site: arxiv
+  themes:
+    - design and optimization
+    - predictive chemistry
+    - data
+
+- title: "DPDispatcher: Scalable HPC task scheduling for AI-driven science"
+  authors: Fengbo Yuan, Zhaohan Ding, Yun-Pei Liu, Kai Cao, Jiahao Fan, Cao Thang Nguyen, Yuzhi Zhang, Haidi Wang, Yixiao Chen, Jiameng Huang, Tongqi Wen, Mingkang Liu, Yifan Li, Yong-Bin Zhuang, Hao Yu, Ping Tuo, Yaotang Zhang, Yibo Wang, Linfeng Zhang, Han Wang, Jinzhe Zeng
+  journal: Journal of Chemical Information and Modeling (accepted)
+  year: 2025
+  url: https://docs.deepmodeling.com/_/downloads/dpdispatcher/en/stable/epub/
+  themes:
+    - automation
+    - data
+
+- title: "dpdata: A scalable Python toolkit for atomistic machine learning datasets"
+  authors: Jinzhe Zeng, Xingliang Peng, Yong-Bin Zhuang, Haidi Wang, Fengbo Yuan, Duo Zhang, Renxi Liu, Yingze Wang, Ping Tuo, Yuzhi Zhang, Yixiao Chen, Yifan Li, Cao Thang Nguyen, Jiameng Huang, Anyang Peng, Marian Rynik, Weihong Xu, Zezhong Zhang, Xu-Yuan Zhou, Tao Chen, Jiahao Fan, Wanrun Jiang, Bowen Li, Denan Li, Haoxi Li, Wenshuo Liang, Ruihao Liao, Liping Liu, Chenxing Luo, Logan Ward, Kaiwei Wan, Junjie Wang, Pan Xiang, Chengqian Zhang, Jingchao Zhang, Rui Zhou, Jia-Xin Zhu, Linfeng Zhang, Han Wang
+  journal: Journal of Chemical Information and Modeling (accepted)
+  year: 2025
+  url: https://github.com/deepmodeling/dpdata
+  themes:
+    - data
+    - automation
+
+- title: "A highly deficient medium-entropy perovskite ceramic for electromagnetic interference shielding under harsh environment"
+  authors: Yongping Liu, P. Tuo, Fu-Zhi Dai, Zhiyang Yu, Wei Lai, Qi Ding, Peng Yan, Jie Gao, Yunfeng Hu, Yixuan Hu, Yuchi Fan, Wan Jiang
+  journal: Advanced Materials
+  year: 2024
+  url: https://doi.org/10.1002/adma.202400059
+  doi: 10.1002/adma.202400059 :contentReference[oaicite:2]{index=2}
+  themes:
+    - predictive chemistry
+    - design and optimization
+
+- title: "Spontaneous hybrid nano-domain behavior of the organic–inorganic hybrid perovskites"
+  authors: P. Tuo, Lei Li, Xiaoxu Wang, Jianhui Chen, Zhicheng Zhong, Bo Xu, Fu-Zhi Dai
+  journal: Advanced Functional Materials
+  year: 2023
+  url: https://doi.org/10.1002/adfm.202301663
+  doi: 10.1002/adfm.202301663 :contentReference[oaicite:3]{index=3}
+  themes:
+    - predictive chemistry
+
+- title: "DeePKS model for halide perovskites with the accuracy of a hybrid functional"
+  authors: Q. Ou, P. Tuo, W. Li, X. Wang, Y. Chen, L. Zhang
+  journal: The Journal of Physical Chemistry C
+  year: 2023
+  url: https://doi.org/10.1021/acs.jpcc.3c04703
+  doi: 10.1021/acs.jpcc.3c04703 :contentReference[oaicite:4]{index=4}
+  volume: 127
+  issue: 37
+  pages: 18755-18764
+  themes:
+    - predictive chemistry
+    - molecular representation
+
+- title: "A spin-dependent machine learning framework for transition metal oxide battery cathode materials"
+  authors: Taiping Hu, Teng Yang, Jianchuan Liu, Bin Deng, Zhengtao Huang, Xiaoxu Wang, Fu-Zhi Dai, Guobing Zhou, Fangjia Fu, P. Tuo, Ben Xu, Shenzhen Xu
+  journal: arXiv
+  year: 2023
+  url: https://arxiv.org/abs/2309.01146
+  preprint: arXiv:2309.01146
+  preprint_url: https://arxiv.org/abs/2309.01146
+  preprint_year: 2023
+  preprint_site: arxiv
+  themes:
+    - predictive chemistry
+    - design and optimization
+    - data
+
+- title: "DeePMD-kit v2: A software package for deep potential models"
+  authors: Jinzhe Zeng, Duo Zhang, Denghui Lu, Pinghui Mo, Zeyu Li, Yixiao Chen, Marian Rynik, Li’ang Huang, Ziyao Li, Shaochen Shi, Yingze Wang, Haotian Ye, P. Tuo, Jiabin Yang, Ye Ding, Yifan Li, Davide Tisi, Qiyu Zeng, Han Bao, Yu Xia, Jiameng Huang, Koki Muraoka, Yibo Wang, Junhan Chang, Fengbo Yuan, Sigbjørn Løland Bore, Chun Cai, Yinnian Lin, Bo Wang, Jiayan Xu, Jia-Xin Zhu, Chenxing Luo, Yuzhi Zhang, Rhys E. A. Goodall, Wenshuo Liang, Anurag Kumar Singh, Sikai Yao, Jingchao Zhang, Renata Wentzcovitch, Jiequn Han, Jie Liu, Weile Jia, Darrin M. York, Roberto Car, Linfeng Zhang, Han Wang
+  journal: The Journal of Chemical Physics
+  year: 2023
+  url: https://doi.org/10.1063/5.0155600
+  doi: 10.1063/5.0155600 
+  themes:
+    - data
+    - automation
+    - molecular representation
+
+- title: "A machine-learning based deep potential for seeking the low-lying candidates of Al clusters"
+  authors: P. Tuo, X. B. Ye, Bi-Cai Pan
+  journal: Journal of Chemical Physics
+  year: 2020
+  url: ""
+  volume: 152
+  pages: 114105
+  themes:
+    - predictive chemistry
+    - design and optimization
+
+- title: "Dilute magnetism in Co doped spinel Mg3Si6As8"
+  authors: P. Tuo, Bi-Cai Pan
+  journal: Journal of Applied Physics
+  year: 2020
+  url: ""
+  volume: 128
+  pages: 033908
+  themes:
+    - predictive chemistry
+
+- title: "Flatband in a three-dimensional tungsten nitride compound"
+  authors: X. B. Ye, P. Tuo, Bi-Cai Pan
+  journal: Journal of Chemical Physics
+  year: 2020
+  url: https://doi.org/10.1063/5.0008739
+  doi: 10.1063/5.0008739 
+  themes:
+    - predictive chemistry
+    - molecular representation
+
+- title: "First-principles study of intrinsic point defects in MgSiAs2"
+  authors: P. Tuo, Bi-Cai Pan
+  journal: Physical Chemistry Chemical Physics
+  year: 2019
+  url: ""
+  volume: 21
+  pages: 5295
+  themes:
+    - predictive chemistry
+
+- title: "New compounds Mg3IV6V8 (IV = Si, Ge, Sn; V = P, As, Sb) and their potential application to photovoltaic materials"
+  authors: P. Tuo, Bi-Cai Pan
+  journal: Journal of Alloys and Compounds
+  year: 2019
+  url: https://doi.org/10.1016/j.jallcom.2019.01.102
+  doi: 10.1016/j.jallcom.2019.01.102 :contentReference[oaicite:7]{index=7}
+  volume: 786
+  pages: 434-439
+  themes:
+    - predictive chemistry
+    - design and optimization
+
+- title: "Ultrathin MXene nanosheets with rich fluorine termination groups realizing efficient electrocatalytic hydrogen evolution"
+  authors: S. Li, P. Tuo, J. Xie, X. Zhang, J. Xu, J. Bao, B. Pan, Y. Xie
+  journal: Nano Energy
+  year: 2018
+  url: ""
+  volume: 47
+  pages: 512-518
+  themes:
+    - predictive chemistry
+    - design and optimization

@@ -1,46 +1,107 @@
 ---
-title: "Allan Lab - Research"
+title: "Tuo Lab - Research"
 layout: textlay
-excerpt: "Allan Lab -- Research"
+excerpt: "Tuo Lab -- Research"
 sitemap: false
 permalink: /research/
 ---
 
 # Research
 
-Our overarching goal is to explore and understand new quantum states of electronic matter on the atomic scale. To do so, we use and develop novel spectroscopic-imaging scanning tunneling microscopy (SI-STM) tools to visualize the relevant quantum mechanical degrees of freedom.
+## Overview
 
-Our goal is to build instruments and develop techniques that enable us to address the questions we find most interesting. This is possible thanks also to Milan's broad background with different research themes and technologies: he learned his trade in [Seamus Davis’ SI-STM lab](http://davisgroup.lassp.cornell.edu/) and with [Felix Baumberger](http://dpmc.unige.ch/gr_baumberger/index.html), and later moved as an [ETH fellow](http://www.ethfellows.ethz.ch/) to [Andreas Wallraff’s qudev lab](http://www.qudev.ethz.ch/) where he investigated coupled cavity arrays in circuit QED. We further have group members with different background and interests, working together on physics and instrumentation.
-
-Here are some themes and techniques that we currently work on:
-
-**Scanning tunneling noise spectroscopy (STNS).** We have developed a novel cryogenic MHz amplifier that allows us to measure not only the average tunneling current, but also its fluctuation! This has many applications: one can detect the fluctuations of the electronic states, peculiar tunneling processes, and shot noise. We have used this instrument to discover charge trapping in the insulating layer of the cuprates, connected to the c-axis mystery, and to measure the doubling of the charge due to Andreev processes to the superfluid in a lead sample.
+<figure class="my-figure">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/Overview_freeenergy.png"
+       style="width: 100%;" />
 
 
-**Mott physics and high-temperature superconductivity.** Questions of interest include: (i), How does the Mott state collapse upon doping and how is this related to the complex phase diagram of high-temperature superconductors? (ii), What is the strange metal phase seen in correlated electron systems? Is this an exotic long-range entangled state? What is the mechanism of dissipation in that state? (iii), Why is the transition temperature in high-temperature superconductors so high? We have worked on iridates, rhodates, and cuprates.
-
-**Nanofabricated "Smart Tips"**.
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SmartTip.png){: style="width: 250px; float: left; margin: 0px  10px"}
-One of the  projects back from my job-proposal is to develop nanofabricated STM tips. The idea behind these “smart tips” is to use the technologies that were developed over decades in nanofabrication and make them available for scanning probe by using a nano-device instead of the traditional STM tungsten tip. One gains the flexibility of using different functionalities that are known from the fields of nanofabrication and mesoscopic physics. We are collaborating with the group Simon Groeblacher at TU Delft to realize this concept, benefitting from their unparalleled micro/nano fabrication know how.  A prototype of a smart tip is shown to the left. See publications in Microsyst Nanoeng, Nanotechnology, and PRB.
-
-**Josephson STM.** Josephson STM has the ability to gain insight into spatial variations of the order parameter, or superfluid density. We have managed to, for the first time, use JSTM with atomic resolution on a quantum material.
-We have used atomic-resolution Josephson scanning tunneling microscopy to reveal a strongly inhomogeneous superfluid in the iron-based superconductor FeTe0.55Se0.45. The results and their implications are published in Nature.
-
-We also detected and investigated a quite particular YSR state in the same material.
-
-**Ultra-stable SI-STM instrument.**  ![]({{ site.url }}{{ site.baseurl }}/images/respic/STMHead.png){: style="width: 250px; float: right; margin: 0px 10px"}
-For SI-STM, having the most stable STM head is key. We have used finite element simulations, good choices in material science, and craftsmanship to build the most stable STM head in the world, to our knowledge. See publication in RSI.
 
 
-**Strange Metals.** The strange metal phase might be the most mysterious phase of high-temperature superconductors. Here, the electrical resistivity grows linearly with temperature T in large areas of the phase diagram, with a mean free path that diminishes to a fraction of the interatomic distance. T-linear resistivity is often associated with quantum critical points and marginal-Fermi-liquid physics. In strange metals, the mystery seems to go even further: we deal with something that looks like a quantum critical phase over an extended range of the phase diagram instead of cumulating in a point. There exists no consistent theory for strange metals, leading to more adventurous new approaches including the holographic theories that use insights from gravity to explain strange metals (a recent textbook on this was written by our colleagues at Leiden University, Schalm and Zaanen).
-We are part of the 'Strange Metal consortium NL' that includes the groups of Hussey, Golden, van Heumen, Zaanen, Schalm, Stoof and Vandoren. 
+## Current research directions
 
-**Magnetic fluctuations and electron spin resonance.**
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SpinFluc.png){: style="width: 70%; float: center; margin: 10px"}
+<div class="two-col">
+  <div class="col-left">
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 480px" />
+  </div>
 
-**Twisted bilayer graphene and other material with super-periodicities.**
-We have proposed that artificial super-periodicities can lead to improved superconductivity, both because of increased density of states and because of phase space arguments (see image from our SciPost publication below). Perhaps for different reasons, twisted bilayer graphene has been shown to superconduct! We are investigate this material with the groups of Efetov, Baumberger, and van der Molen.
+  <div class="col-right">
 
-![]({{ site.url }}{{ site.baseurl }}/images/respic/SciPost.png){: style="width: 70%; float: center; margin: 0px"}
+### Conditional flow matching framework MolGEN
 
-### ... and more.
+[MolGEN](https://github.com/tuoping/MolGEN) is a conditional generative modeling package that couples the state-of-the-art flow matching frameworks with equivariant transformers. The framework can be easily adapted to evaluate the free energy surfaces, metastability, and generate kinetic pathways.
+
+[1] A self-contained generative framework for reaction network exploration:
+
+https://arxiv.org/abs/2507.10530
+
+  </div>
+</div>
+
+
+<div class="two-col">
+  <div class="col-left">
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/TOC.png"  style="width: 480px" />
+  </div>
+
+  <div class="col-right">
+
+### Free energy sampling in the alchemical space
+
+Free energy sampling in the alchemical space is increasingly important with the emergence of high entropy materials. Yet it faces unique challenge due to the discrete nature of the alchemical space. [alchemicalFES](https://github.com/tuoping/alchemicalFES) implements free energy sampling of the alchemical space based on flow matching of the Dirichlet distribution and achieves multi-temperature generation with a light-weight CNN model by reformulating the guidance technique. 
+
+[1] Scalable Multitemperature Free Energy Sampling of Classical Ising Spin States:
+
+https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
+
+  </div>
+</div>
+
+
+
+<div class="two-col">
+  <div class="col-left">
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/Nanodomain_perov.jpg"  style="width: 480px" />
+  </div>
+
+  <div class="col-right">
+
+### Anomalous phase behavior arising from collective effects
+
+...
+
+[1] Spontaneous Hybrid Nano-Domain Behavior of the Organic–Inorganic Hybrid Perovskites:
+
+https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
+
+[2] Medium Entropy Deficiency for Electromagnetic Interference Shielding under Harsh Environment:
+
+https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400059
+
+  </div>
+</div>
+
+
+<div class="two-col">
+  <div class="col-left">
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/chemicalspace_MgSiAs.png"  style="width: 480px" />
+  </div>
+
+  <div class="col-right">
+
+### Functional Ceramics Design for Tailored Electronic, Magnetic, and Photoelectronic Properties
+
+
+[1] Tuo P, Pan B C. Dilute magnetism in Co-doped spinel Mg3Si6As8[J]. Journal of Applied Physics, 2020, 128(3).
+
+[2] Ye X B, Tuo P, Pan B C. Flatband in a three-dimensional tungsten nitride compound[J]. The Journal of Chemical Physics, 2020, 152(22).
+
+[3] Tuo P, Ye X B, Pan B C. A machine learning based deep potential for seeking the low-lying candidates of Al clusters[J]. The Journal of Chemical Physics, 2020, 152(11).
+
+[4] Tuo P, Pan B C. New compounds Mg3IV6V8 (IV= Si, Ge, Sn; V= P, As, Sb) and their potential application to photovoltaic materials[J]. Journal of Alloys and Compounds, 2019, 786: 434-439.
+
+[5] Tuo P, Pan B C. First-principles study of intrinsic point defects in MgSiAs2[J]. Physical Chemistry Chemical Physics, 2019, 21(9): 5295-5304.
+
+[6] Li S, Tuo P, Xie J, et al. Ultrathin MXene nanosheets with rich fluorine termination groups realizing efficient electrocatalytic hydrogen evolution[J]. Nano energy, 2018, 47: 512-518.
+
+  </div>
+</div>
