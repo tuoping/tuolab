@@ -31,7 +31,7 @@ My research builds physics-aware generative frameworks for free energy calculati
 
 <div class="two-col">
   <div class="col-left">
-<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 480px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/algo_schematic.png"  style="width: 100%" />
   </div>
 
   <div class="col-right">
@@ -50,7 +50,7 @@ https://arxiv.org/abs/2507.10530
 
 <div class="two-col">
   <div class="col-left">
-<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/TOC.png"  style="width: 480px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/TOC.png"  style="width: 100%" />
   </div>
 
   <div class="col-right">
@@ -70,7 +70,7 @@ https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
 <div class="two-col">
   <div class="col-left">
-<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/Nanodomain_perov.jpg"  style="width: 480px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/Nanodomain_perov.jpg"  style="width: 100%" />
   </div>
 
   <div class="col-right">
@@ -93,7 +93,7 @@ https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400059
 
 <div class="two-col">
   <div class="col-left">
-<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/chemicalspace_MgSiAs.png"  style="width: 480px" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/tocpic/chemicalspace_MgSiAs.png"  style="width: 100%" />
   </div>
 
   <div class="col-right">
