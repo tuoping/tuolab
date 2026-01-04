@@ -1,0 +1,63 @@
+# - title: software
+#   image: logo.png (optional)
+#   description: Couple sentences about the software.
+#   links:
+#     - label: "label"
+#       url: url
+#   themes:
+#     - molecular representation
+#     - design and optimization
+#     - predictive chemistry
+#     - automation
+#     - metabolomics
+#     - data
+
+# This file contains software that the group contributes to but is not solely responsible for.
+
+
+- title: OpenScience
+  description: OpenScience is an open-source course knowledge base spanning multiple disciplines including physics, chemistry, and computer science. 
+  links:
+    - label: "Website"
+      url: https://openscienceteam.github.io/OpenScience/
+    - label: "GitHub"
+      url: https://github.com/OpenScienceTeam/OpenScience
+  themes:
+    - data
+
+
+- title: deepmd-kit
+  description: DeePMD-kit is a package written in Python/C++, designed to minimize the effort required to build deep learning-based model of interatomic potential energy and force field and to perform molecular dynamics (MD). This brings new hopes to addressing the accuracy-versus-efficiency dilemma in molecular simulations. Applications of DeePMD-kit span from finite molecules to extended systems and from metallic systems to chemically bonded systems.
+  links:
+    - label: "GitHub"
+      url: https://github.com/deepmodeling/deepmd-kit
+  themes:
+    - molecular representation
+    - predictive chemistry
+
+- title: dpgen
+  description: DP-GEN (Deep Potential GENerator) is a software written in Python, delicately designed to generate a deep learning based model of interatomic potential energy and force field. DP-GEN is dependent on DeePMD-kit. With highly scalable interface with common softwares for molecular simulation, DP-GEN is capable to automatically prepare scripts and maintain job queues on HPC machines (High Performance Cluster) and analyze results.
+  links:
+    - label: "GitHub"
+      url: https://github.com/deepmodeling/dpgen
+  themes:
+    - data
+    - automation
+
+- title: dpdata
+  description: dpdata is a python package for manipulating DeePMD-kit, VASP, LAMMPS data formats. dpdata only works with python 3.x.
+  links:
+    - label: "GitHub"
+      url: https://github.com/deepmodeling/dpdata
+  themes:
+    - data
+    - automation
+
+- title: dpdispatcher
+  description: DPDispatcher is a Python package used to generate HPC (High-Performance Computing) scheduler systems (Slurm/PBS/LSF/Bohrium) jobs input scripts, submit them to HPC systems, and poke until they finish.
+  links:
+    - label: "GitHub"
+      url: https://github.com/deepmodeling/dpdispatcher
+  themes:
+    - data
+    - automation

@@ -1,0 +1,32 @@
+# - title: software
+#   image: logo.png (optional)
+#   description: Couple sentences about the software.
+#   links:
+#     - label: "label"
+#       url: url
+#     - label: "optionally add more labels"
+#       url: url
+#   themes:
+#     - molecular representation
+#     - design and optimization
+#     - predictive chemistry
+#     - automation
+#     - metabolomics
+#     - data
+
+- title: MolGEN
+  description: MolGEN is an open source conditional generative modeling package that couples the state-of-the-art flow matching frameworks with equivariant transformers. The framework can be easily adapted to evaluate the free energy surfaces, metastability, and generate kinetic pathways.
+  links:
+    - label: "GitHub"
+      url: https://github.com/tuoping/MolGEN
+  themes:
+    - predictive chemistry
+
+
+- title: alchemicalFES
+  description: alchemicalFES implements free energy sampling of the alchemical space based on flow matching of the Dirichlet distribution and achieves multi-temperature generation with a light-weight CNN model by reformulating the guidance technique.
+  links:
+    - label: "GitHub"
+      url: https://github.com/tuoping/alchemicalFES
+  themes:
+    - predictive chemistry
