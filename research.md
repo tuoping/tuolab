@@ -10,20 +10,20 @@ permalink: /research/
 
 ## Overview
 
-High-throughput computational approaches aim to transform materials discovery by enabling rapid prediction of novel inorganic compounds. In 2023, 84,641 distinct compounds were predicted to be thermodynamically stable, of which 24,541 were reported in the ICSD as experimentally realized.
+High-throughput computational approaches aim to transform materials discovery by enabling rapid prediction of novel inorganic compounds. In 2023, 84,641 distinct compounds has been predicted to be thermodynamically stable, of which 24,541 were reported in the ICSD as experimentally realized.
 The gap between predicted and synthesized materials can be attributed to four primary failure modes[^Szymanski2023]: slow reaction kinetics, precursor volatility, product amorphization, and intrinsic limitations of density functional theory calculations performed at 0 K.
 
 <div style="text-align: center">
 <img style="width: 80%;" src="{{ site.url }}{{ site.baseurl }}/images/Overview_freeenergy.png" alt="Chemical discovery overview"/>
 </div>
 
-However, all of this information is encoded in the free energy landscape $F(x)$, which has traditionally been prohibitively expensive to compute and therefore inaccessible to high-throughput studies. Generative models establish a machine-learned mapping to the associated probability distribution $P(x)\propto e^{-F(x)/k_BT}$, offering a promising route toward scalable, high-throughput free energy calculations.
+However, all of this information is encoded in the free energy landscape $F(x)$, which has traditionally been prohibitively expensive to compute and therefore inaccessible to high-throughput studies. Generative models establish a machine-learned probability field mapping, which is related to the free energy landscape by $P(x)\propto e^{-F(x)/k_BT}$, offering a promising route towards scalable, high-throughput free energy calculations.
 
 <div style="text-align: center">
 <img style="width: 50%;" src="{{ site.url }}{{ site.baseurl }}/images/Overview_gen.png" alt="Generative modeling overview"/>
 </div>
 
-My research builds physics-aware generative frameworks for free energy and free energy-driven kinetics, addressing a central gap in today’s AI-driven materials discovery: The lack of thermodynamic and kinetic realism in generative structure models.
+My research builds physics-aware generative frameworks for free energy calculations and free energy-driven kinetics simulation, addressing a central gap in today’s AI-driven materials discovery: The lack of thermodynamic and kinetic realism in generative structure models.
 
 [^Szymanski2023]: Szymanski N J, Rendy B, Fei Y, et al. An autonomous laboratory for the accelerated synthesis of novel materials[J]. Nature, 2023, 624(7990): 86-91.
 
