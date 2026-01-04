@@ -1,7 +1,7 @@
 ---
 title: "News"
 layout: textlay
-excerpt: "Tuo Lab at Leiden University."
+excerpt: "Ping Tuo at UC Berkeley."
 sitemap: false
 permalink: /allnews.html
 ---

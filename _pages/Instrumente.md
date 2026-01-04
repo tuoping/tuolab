@@ -1,5 +1,5 @@
 ---
-title: "Tuo Lab - Instrumente"
+title: "Ping Tuo - Instrumente"
 layout: textlay
 excerpt: "AOA"
 sitemap: false

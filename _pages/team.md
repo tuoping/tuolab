@@ -1,7 +1,7 @@
 ---
-title: "Tuo Lab - Team"
+title: "Ping Tuo - Team"
 layout: gridlay
-excerpt: "Tuo Lab: Team members"
+excerpt: "Ping Tuo: Team members"
 sitemap: false
 permalink: /team/
 ---

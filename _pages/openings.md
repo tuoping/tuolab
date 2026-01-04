@@ -1,5 +1,5 @@
 ---
-title: "Tuo Lab - Vacancies"
+title: "Ping Tuo - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

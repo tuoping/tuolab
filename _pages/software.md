@@ -1,5 +1,5 @@
 ---
-title: "Tuo Research Group - Software"
+title: "Ping Tuo - Software"
 layout: textlay
 excerpt: "Software."
 sitemap: false

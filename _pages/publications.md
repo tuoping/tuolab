@@ -1,7 +1,7 @@
 ---
-title: "Tuo Lab - Publications"
+title: "Ping Tuo - Publications"
 layout: publications
-excerpt: "Tuo Lab -- Publications."
+excerpt: "Ping Tuo -- Publications."
 sitemap: false
 permalink: /publications
 ---
