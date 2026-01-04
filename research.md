@@ -83,7 +83,7 @@ https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
 https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
 
-[2] Medium Entropy Deficiency for Electromagnetic Interference Shielding under Harsh Environment:
+[2] Medium Entropy induced Deficiency for Electromagnetic Interference Shielding under Harsh Environment:
 
 https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400059
 

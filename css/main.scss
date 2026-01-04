@@ -324,7 +324,7 @@ firstp {
 }
 
 .two-col .col-right {
-  flex: 50%;          /* text takes the rest */
+  flex: 1 1 0;          /* text takes the rest */
 }
 
 .two-col .col-right h3 {
