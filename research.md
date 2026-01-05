@@ -75,7 +75,7 @@ https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
   <div class="col-right">
 
-### Anomalous phase behavior arising from collective effects
+### Unconventional phase behavior arising from collective effects
 
 ...
 
