@@ -71,9 +71,21 @@ Free energy sampling in the alchemical space is increasingly important with the 
 
   <div class="col-right">
 
-### Unconventional phase behavior arising from collective effects
+### Collective Ordering Phase Behavior
 
-...
+Collective ordering refers to macroscopic order emerging under frustration, mediated by long-range interactions, on a flattened free-energy landscape. Collective ordering is characterized by:
+
+- Strong correlations across length scales
+
+- Competing interactions (elastic, electrostatic, magnetic, entropic)
+
+- Multiple nearly degenerate states
+
+- History dependence and hysteresis
+
+- Mesoscopic heterogeneity rather than uniform order
+
+Example phenomena include martensitic transformations, ferroic transitions, charge/spin density waves, and nanodomain ordering. 
 
 [1] Tuo P, Li L, Wang X, et al. Spontaneous Hybrid Nano‐Domain Behavior of the Organic–Inorganic Hybrid Perovskites[J]. Advanced Functional Materials, 2023, 33(32): 2301663. https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
 
