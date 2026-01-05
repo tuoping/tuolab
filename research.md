@@ -71,7 +71,7 @@ Free energy sampling in the alchemical space is increasingly important with the 
 
   <div class="col-right">
 
-### Collective Ordering Phase Behavior
+### Collective ordering phase behavior
 
 Collective ordering refers to macroscopic order emerging under frustration, mediated by long-range interactions, on a flattened free-energy landscape. Collective ordering is characterized by:
 
@@ -102,7 +102,7 @@ Example phenomena include martensitic transformations, ferroic transitions, char
 
   <div class="col-right">
 
-### Functional Ceramics Design for Tailored Electronic, Magnetic, and Photoelectronic Properties
+### Functional ceramics design for tailored electronic, magnetic, and photoelectronic properties
 
 
 [1] Tuo P, Pan B C. Dilute magnetism in Co-doped spinel Mg3Si6As8[J]. Journal of Applied Physics, 2020, 128(3).
