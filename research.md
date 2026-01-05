@@ -79,7 +79,7 @@ https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
 ...
 
-[1] Spontaneous Hybrid Nano-Domain Behavior of the Organic–Inorganic Hybrid Perovskites:
+[1] Spontaneous Hybrid Nano-Domain Behavior of the Organic-Inorganic Hybrid Perovskites:
 
 https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
 
