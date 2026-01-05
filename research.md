@@ -40,9 +40,7 @@ My research builds physics-aware generative frameworks for free energy calculati
 
 [MolGEN](https://github.com/tuoping/MolGEN) is a conditional generative modeling package that couples the state-of-the-art flow matching frameworks with equivariant transformers. The framework can be easily adapted to evaluate the free energy surfaces, metastability, and generate kinetic pathways.
 
-[1] A self-contained generative framework for reaction network exploration:
-
-https://arxiv.org/abs/2507.10530
+[1] Tuo P, Chen J, Li J. Flow matching for reaction pathway generation[J]. arXiv preprint arXiv:2507.10530, 2025. https://arxiv.org/abs/2507.10530
 
   </div>
 </div>
@@ -59,9 +57,7 @@ https://arxiv.org/abs/2507.10530
 
 Free energy sampling in the alchemical space is increasingly important with the emergence of high entropy materials. Yet it faces unique challenge due to the discrete nature of the alchemical space. [alchemicalFES](https://github.com/tuoping/alchemicalFES) implements free energy sampling of the alchemical space based on flow matching of the Dirichlet distribution and achieves multi-temperature generation with a light-weight CNN model by reformulating the guidance technique. 
 
-[1] Scalable Multitemperature Free Energy Sampling of Classical Ising Spin States:
-
-https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
+[1] Tuo P, Zeng Z, Chen J, et al. Scalable Multitemperature Free Energy Sampling of Classical Ising Spin States[J]. Journal of Chemical Theory and Computation, 2025, 21(22): 11427-11435. https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
   </div>
 </div>
@@ -79,13 +75,9 @@ https://pubs.acs.org/doi/full/10.1021/acs.jctc.5c01248
 
 ...
 
-[1] Spontaneous Hybrid Nano-Domain Behavior of the Organic-Inorganic Hybrid Perovskites:
+[1] Tuo P, Li L, Wang X, et al. Spontaneous Hybrid Nano‐Domain Behavior of the Organic–Inorganic Hybrid Perovskites[J]. Advanced Functional Materials, 2023, 33(32): 2301663. https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
 
-https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adfm.202301663
-
-[2] Medium Entropy induced Deficiency for Electromagnetic Interference Shielding under Harsh Environment:
-
-https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400059
+[2] Liu Y, Tuo P, Dai F Z, et al. A Highly Deficient Medium‐Entropy Perovskite Ceramic for Electromagnetic Interference Shielding under Harsh Environment[J]. Advanced Materials, 2024, 36(28): 2400059. https://advanced.onlinelibrary.wiley.com/doi/abs/10.1002/adma.202400059
 
   </div>
 </div>
