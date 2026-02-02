@@ -3,10 +3,6 @@
   journal: arXiv
   year: 2025
   url: https://arxiv.org/abs/2507.10530
-  preprint: arXiv:2507.10530
-  preprint_url: https://arxiv.org/abs/2507.10530
-  preprint_year: 2025
-  preprint_site: arxiv
   themes:
     - design and optimization
     - predictive chemistry
