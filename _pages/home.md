@@ -9,9 +9,9 @@ permalink: /
 
 I'm a [BiDMaP fellow](https://bidmap.berkeley.edu/fellowship-opportunities/postdoctoral-fellowships-climate-change-machine-learning-and-advanced) at [University of California, Berkeley](https://www.berkeley.edu/). 
 
-My research solves the synthesizability & realism problem of generative materials models by building physics-aware free-energy + kinetics generative frameworks. 
+My research tackles the synthesizability and realism bottleneck in computational materials design by building physics-aware generative frameworks that integrate free-energy landscapes and kinetic pathways. 
 
-I aim to addresses a central gap in today’s AI-driven materials discovery: The lack of thermodynamic and kinetic realism in generative structure models.
+My goal is to close a central gap in AI-driven materials discovery: the absence of thermodynamic and kinetic realism in current data, models, and predictions.
 
 
 
