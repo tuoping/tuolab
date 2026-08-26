@@ -1,8 +1,8 @@
 - title: "Flow matching for reaction pathway generation"
   authors: P. Tuo, Jiale Chen, Ju Li
-  journal: arXiv
-  year: 2025
-  url: https://arxiv.org/abs/2507.10530
+  journal: Nature Communication
+  year: 2026
+  url: https://www.nature.com/articles/s41467-026-75654-w
   themes:
     - design and optimization
     - predictive chemistry
@@ -10,9 +10,9 @@
 
 - title: "Scalable multi-temperature free energy sampling of the alchemical space"
   authors: P. Tuo, Zezhu Zeng, Jiale Chen, Bingqing Cheng
-  journal: Journal of Chemical Theory and Computation (accepted)
+  journal: Journal of Chemical Theory and Computation 21 (22), 11427-11435
   year: 2025
-  url: https://arxiv.org/abs/2503.08063
+  url: https://pubs.acs.org/jctcce/article-abstract/21/22/11427/3693663/
   preprint: arXiv:2503.08063
   preprint_url: https://arxiv.org/abs/2503.08063
   preprint_year: 2025
