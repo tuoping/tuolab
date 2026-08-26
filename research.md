@@ -40,7 +40,7 @@ My research builds physics-aware generative frameworks for free energy calculati
 
 [MolGEN](https://github.com/tuoping/MolGEN) is a conditional generative modeling package that couples the state-of-the-art flow matching frameworks with equivariant transformers. The framework can be easily adapted to evaluate the free energy surfaces, metastability, and generate kinetic pathways.
 
-[1] Tuo P, Chen J, Li J. Flow matching for reaction pathway generation[J]. arXiv preprint arXiv:2507.10530, 2025. https://arxiv.org/abs/2507.10530
+[1] Tuo P, Chen J, Li J. Flow matching for reaction pathway generation[J].  Nature Communications, 2026.
 
   </div>
 </div>
