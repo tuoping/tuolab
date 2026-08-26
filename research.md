@@ -17,7 +17,7 @@ The gap between predicted and synthesized materials can be attributed to four pr
 <img style="width: 80%;" src="{{ site.url }}{{ site.baseurl }}/images/Overview_freeenergy.png" alt="Chemical discovery overview"/>
 </div>
 
-However, all of this information is encoded in the free energy landscape $F(x)$, which has traditionally been prohibitively expensive to compute and therefore inaccessible to high-throughput studies. Generative models establish a machine-learned probability field mapping, which is related to the free energy landscape by $P(x)\propto e^{-F(x)/k_BT}$, offering a promising route towards scalable, high-throughput free energy calculations.
+However, all of this information is encoded in the free energy landscape $F(\xi)$, which has traditionally been prohibitively expensive to compute and therefore inaccessible to high-throughput studies. Generative models establish a machine-learned probability field mapping, which is related to the free energy landscape by $P(\xi)\propto e^{-F(\xi)/k_BT}$, offering a promising route towards scalable, high-throughput free energy calculations.
 
 <div style="text-align: center">
 <img style="width: 50%;" src="{{ site.url }}{{ site.baseurl }}/images/Overview_gen.png" alt="Generative modeling overview"/>
